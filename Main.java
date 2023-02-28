@@ -32,6 +32,7 @@ class Main {
         System.out.println("Top 10 Forbes In-Demand Jobs!");
   }
       if (choice == 4){
+        System.out.println("Current Students:");
         for (int i = 0; i < arrayList.size(); i++){
           System.out.println(arrayList.get(i));
         }
